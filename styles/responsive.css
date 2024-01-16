@@ -1,6 +1,50 @@
 @media screen and (max-width:600px) {
+  .nav-items-container{
+    display: none;
+  }
+  /* popular tours section */
   .tour-section{
     flex-direction: column;
+    padding: 20px;
   }
- 
+  .tour-text-container {
+    width: 100%;
+  }
+  .tour-image-container {
+    width: 100%;
+    }
+/* why choose us */
+.choose-section {  
+margin:24px 20px ;
+}
+/* newsletter section */
+.newsletter-section {
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.newsletter-info-container {
+  width: 100%;
+}
+.newsletter-img-container {
+  width: 100%;
+}
+.discount {
+  left: 140px;
+  bottom: 50px;
+}
+/* footer section  */
+    .footer-section{
+      justify-content: center;
+      padding: 20px;
+    }
+    hr{
+      width: 100%;
+    }
+    .footer-description{
+      margin-top: 25px;
+      text-align: center;
+      padding: 5px;
+    }
 }

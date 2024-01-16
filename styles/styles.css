@@ -27,9 +27,15 @@ body {
   font-size: 20px;
   font-weight: 800;
 }
+
 .section-title {
   color: #131318;
   font-size: 40px;
+  font-weight: 800;
+}
+
+.brand-title {
+  font-size: 2.25rem;
   font-weight: 800;
 }
 
@@ -51,7 +57,7 @@ body {
   object-fit: cover;
 }
 
-.nav-brand-title {
+.brand-title {
   font-size: 2.25rem;
   font-weight: 800;
 }
@@ -100,48 +106,267 @@ body {
 .tour-description ul li {
   margin: 24px 20px;
 }
-#another-text-description{
+
+#another-text-description {
   margin-bottom: 24px;
 }
 
 .tour-image-container {
-width: 50%;
+  width: 50%;
 }
 
 .tour-image-container img {
   width: 100%;
   height: 100%;
 }
+
 /* our popular tours styles end here */
 
-/* footer styles start here */
-footer{
-  background-color: rgba(19, 19, 24, 0.05);
+
+/* why choose us */
+.choose-section {
+  max-width: 1250px;
+  margin: 130px auto;
+
+
 }
-.footer-section{
-  min-height: 400px;
-display: flex;
-flex-direction: column;
-align-items: center;
+
+.choose-info {
+  text-align: center;
 }
-.footer-info{
-  margin-top: 110px;
-display: flex;
-gap: 16px;
+
+.choose-description {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
-.footer-description{
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card-container {
+  border-radius: 16px;
+  padding: 32px;
+  flex-basis: 600px;
+}
+
+.container1 {
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.container2 {
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.container3 {
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.card-hotel {}
+
+.hotel {
+  font-size: 45px;
+  color: steelblue;
+}
+.map{
+  font-size: 45px;
+  color: rgb(206, 202, 163);
+}
+.bill{
+  font-size: 45px;
+  color:rgb(118, 67, 4);
+}
+.card-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.card-description {
   color: #5A5A5D;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  margin-bottom: 35px;
+  line-height: 26px;
 }
-.footer-img{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* newsletter section styles start here */
+
+.newsletter-section {
+  max-width: 1250px;
+  margin: 130px auto;
+  display: flex;
+  gap: 24px;
+}
+
+.newsletter-info-container {
+  border: 1px solid red;
+  border-radius: 1rem;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.newsletter-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.newsletter-description {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.newsletter-hr {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: 0;
+  outline: 0;
+  padding: 16px 20px;
+  color: rgba(19, 19, 24, 0.30);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.newsletter-btn {
+  margin-top: 24px;
+  border-radius: 8px;
+  border: 0;
+}
+
+.newsletter-img-container {
+  width: 55%;
+  position: relative;
+}
+
+.newsletter-img-container img {
+  width: 100%;
+  height: 100%;
 
 }
-hr{
+
+.discount {
+  width: 324px;
+  height: 120px;
+  border-radius: 16px;
+  background: #FF5400;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  transform: rotate(-19.628deg);
+  position: absolute;
+  left: 340px;
+  bottom: 50px;
+}
+
+.discount p {
+  margin-top: 4px;
+}
+
+/* newsletter section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer styles start here */
+footer {
+  background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-section {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info {
+  margin-top: 110px;
+  display: flex;
+  gap: 16px;
+}
+
+.footer-description {
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 35px;
+  padding: 0 100px;
+  margin-top: 25px;
+  text-align: center;
+
+}
+
+.footer-img {
+  display: flex;
+  gap: 24px;
+}
+
+hr {
   background: rgba(19, 19, 24, 0.10);
-    width: 60%;
-    margin-top: 70px;
-    margin-bottom: 50px;
-  }
+  width: 60%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.copyright {
+  margin-top: 50px;
+}
