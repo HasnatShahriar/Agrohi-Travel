@@ -4,7 +4,6 @@
 
 /* common shared styles */
 
-
 * {
   padding: 0;
   margin: 0;
@@ -80,6 +79,69 @@ body {
 
 /* nav styles end here */
 
+/* banner section style start here */
+
+.banner-section {
+  max-width: 1250px;
+  margin: 60px auto;
+  background-image: url("../Images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border-radius: 16px;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title {
+  margin-top: 200px;
+  color: #FFF;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.banner-description {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.banner-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 64px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  padding: 1rem;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.banner-form input {
+  border-radius: 8px;
+  background: #FFF;
+  border: 0;
+  padding: 16px;
+}
+
+.banner-btn {
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 40px;
+}
+
 /* our popular tours start styles */
 .tour-section {
   max-width: 1250px;
@@ -123,12 +185,111 @@ body {
 /* our popular tours styles end here */
 
 
+/* destination section starts here */
+
+.destination-section {
+  max-width: 1250px;
+  margin: 130px auto;
+}
+
+.destination-info {
+  text-align: center;
+}
+
+.destination-description {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+
+.first-row {
+  display: flex;
+  gap: 24px;
+}
+
+.second-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.third-row {
+  display: flex;
+  gap: 24px;
+}
+
+/* bonus section styles start here */
+
+.bonus-section {
+  max-width: 1250px;
+  margin: 130px auto;
+  min-height: 400px;
+  display: flex;
+}
+
+.bonus-image-container {
+  width: 80%;
+  position: relative;
+}
+
+.bonus-image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.offer {
+  width: 150px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #FF5400;
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.bonus-text-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.bonus-title {
+  background: linear-gradient(to bottom, green, rgb(255, 170, 0));
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.bonus-text-container span {
+  background: linear-gradient(to top, rgb(232, 15, 15), rgb(171, 171, 216));
+  background-clip: text;
+  color: transparent;
+}
+
+.bonus-description {
+  color: rgba(19, 19, 24, 0.50);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* bonus section styles end here */
+
 /* why choose us */
 .choose-section {
   max-width: 1250px;
   margin: 130px auto;
-
-
 }
 
 .choose-info {
@@ -145,7 +306,6 @@ body {
 }
 
 .container {
-
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -173,20 +333,21 @@ body {
   background: rgba(233, 68, 68, 0.05);
 }
 
-.card-hotel {}
-
 .hotel {
   font-size: 45px;
   color: steelblue;
 }
-.map{
+
+.map {
   font-size: 45px;
   color: rgb(206, 202, 163);
 }
-.bill{
+
+.bill {
   font-size: 45px;
-  color:rgb(118, 67, 4);
+  color: rgb(118, 67, 4);
 }
+
 .card-title {
   color: #131318;
   font-size: 24px;
@@ -201,22 +362,6 @@ body {
   font-weight: 400;
   line-height: 26px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* newsletter section styles start here */
 
@@ -310,18 +455,6 @@ body {
 }
 
 /* newsletter section ends here */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
